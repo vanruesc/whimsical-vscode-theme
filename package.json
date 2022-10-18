@@ -1,7 +1,7 @@
 {
-	"name": "whimsical",
+	"name": "whimsical-vscode-theme",
 	"displayName": "Whimsical",
-	"description": "",
+	"description": "A dark color theme for VSCode.",
 	"version": "0.0.1",
 	"license": "Zlib",
 	"engines": {
@@ -21,6 +21,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/vanruesc/whimsical.git"
+		"url": "https://github.com/vanruesc/whimsical-vscode-theme.git"
 	}
 }
