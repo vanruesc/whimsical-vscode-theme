@@ -18,7 +18,14 @@
       "name": "unison punctuation",
       "scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#9f9d6d"
+      }
+    },
+    {
+      "name": "operators",
+      "scope": "keyword.operator,keyword.operator.ternary,keyword.operator.optional",
+      "settings": {
+        "foreground": "#9f9d6d"
       }
     },
     {
@@ -60,7 +67,7 @@
       "name": "punctuation.separator.parameters.python",
       "scope": "punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python",
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#9f9d6d"
       }
     },
     {
@@ -186,7 +193,7 @@
       "name": "js/ts punctuation separator key-value",
       "scope": "punctuation.separator.key-value",
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#9f9d6d"
       }
     },
     {
@@ -315,7 +322,7 @@
       "name": "css comma",
       "scope": "punctuation.separator.list.comma.css",
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#9f9d6d"
       }
     },
     {
@@ -365,8 +372,6 @@
       "scope": [
         "keyword.operator.expression.instanceof",
         "keyword.operator.new",
-        "keyword.operator.ternary",
-        "keyword.operator.optional",
         "keyword.operator.expression.keyof"
       ],
       "settings": {
@@ -447,14 +452,14 @@
       "name": "Punctuation",
       "scope": "punctuation.separator.delimiter",
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#9f9d6d"
       }
     },
     {
       "name": "Other punctuation .c",
       "scope": "punctuation.separator.c,punctuation.separator.cpp",
       "settings": {
-        "foreground": "#e08056"
+        "foreground": "#9f9d6d"
       }
     },
     {
@@ -806,7 +811,7 @@
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "",
         "foreground": "#dfc47d"
       }
     },
@@ -814,7 +819,7 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "",
         "foreground": "#85c2c2"
       }
     },
@@ -1940,7 +1945,7 @@
     "editorIndentGuide.background": "#323232",
     "editorIndentGuide.activeBackground": "#515151",
     "editorRuler.foreground": "#364136",
-    "editorBracketMatch.background": "#ab2113",
+    "editorBracketMatch.background": "#602121",
     "editorBracketMatch.border": "#88888800",
     "editor.foldBackground": "#232323",
     "editorOverviewRuler.background": "#25252500",
