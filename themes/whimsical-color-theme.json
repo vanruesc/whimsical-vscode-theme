@@ -811,7 +811,6 @@
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "fontStyle": "",
         "foreground": "#dfc47d"
       }
     },
@@ -819,7 +818,6 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "",
         "foreground": "#85c2c2"
       }
     },
@@ -880,31 +878,45 @@
       }
     },
     {
+      "name": "[VSCODE-CUSTOM] Markdown text",
+      "scope": "meta.paragraph.markdown",
+      "settings": {
+        "foreground": "#cedae3"
+      }
+    },
+    {
       "name": "[VSCODE-CUSTOM] Markdown headings",
       "scope": "entity.name.section.markdown",
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#cedae3"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Markdown headings",
+      "scope": "entity.name.section.markdown, markup.heading.markdown",
+      "settings": {
+        "foreground": "#cedf99"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown heading Punctuation Definition",
       "scope": "punctuation.definition.heading.markdown",
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#cedf99"
       }
     },
     {
       "name": "punctuation.definition.list.begin.markdown",
       "scope": "punctuation.definition.list.begin.markdown",
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#aec2d2"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown heading setext",
       "scope": "markup.heading.setext",
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#cedae3"
       }
     },
     {
@@ -916,23 +928,16 @@
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
-      "scope": "markup.inline.raw.markdown",
+      "scope": "markup.inline.raw.markdown, markup.inline.raw.string.markdown",
       "settings": {
-        "foreground": "#cedae3"
-      }
-    },
-    {
-      "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
-      "scope": "markup.inline.raw.string.markdown",
-      "settings": {
-        "foreground": "#cedae3"
+        "foreground": "#aec2d2"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown List Punctuation Definition",
       "scope": "punctuation.definition.list.markdown",
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#aec2d2"
       }
     },
     {
@@ -943,7 +948,7 @@
         "punctuation.definition.metadata.markdown"
       ],
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#aec2d2"
       }
     },
     {
@@ -952,7 +957,7 @@
         "beginning.punctuation.definition.list.markdown"
       ],
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#aec2d2"
       }
     },
     {
@@ -1899,9 +1904,9 @@
     "menu.foreground": "#cccccc",
     "menu.background": "#252526",
     "menu.selectionForeground": "#ffffff",
-    "menu.selectionBackground": "#808080",
+    "menu.selectionBackground": "#606060",
     "menu.selectionBorder": "#00000000",
-    "menu.separatorBackground": "#bbbbbb",
+    "menu.separatorBackground": "#808080",
     "menu.border": "#00000085",
     "button.background": "#638863",
     "button.foreground": "#ffffff",
@@ -2044,7 +2049,7 @@
     "editorSuggestWidget.border": "#454545",
     "editorSuggestWidget.foreground": "#d4d4d4",
     "editorSuggestWidget.highlightForeground": "#85c2c2",
-    "editorSuggestWidget.selectedBackground": "#062f4a",
+    "editorSuggestWidget.selectedBackground": "#404040",
     "editorHoverWidget.foreground": "#cccccc",
     "editorHoverWidget.background": "#252526",
     "editorHoverWidget.border": "#454545",
