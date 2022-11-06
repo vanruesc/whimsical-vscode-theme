@@ -50,6 +50,13 @@
       }
     },
     {
+      "name": "jsdoc link",
+      "scope": "variable.other.link.underline.jsdoc",
+      "settings": {
+        "foreground": "#7f9f7f"
+      }
+    },
+    {
       "name": "haskell storage type",
       "scope": "storage.type.haskell",
       "settings": {
