@@ -36,6 +36,20 @@
       }
     },
     {
+      "name": "javadoc tags",
+      "scope": "keyword.other.documentation.javadoc.java",
+      "settings": {
+        "foreground": "#c0c0c0"
+      }
+    },
+    {
+      "name": "javadoc variable",
+      "scope": "comment.block.javadoc.java",
+      "settings": {
+        "foreground": "#7f9f7f"
+      }
+    },
+    {
       "name": "jsdoc tags",
       "scope": "storage.type.class.jsdoc,entity.name.type.instance.jsdoc,variable.other.description.jsdoc",
       "settings": {
@@ -227,6 +241,21 @@
     {
       "name": "js/ts variable.other.constant",
       "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#dfc47d"
+      }
+    },
+    {
+      "name": "js/ts punctuation",
+      "scope": [
+        "punctuation.definition.block.ts",
+        "punctuation.terminator.statement.ts",
+        "punctuation.separator.parameter.ts",
+        "punctuation.separator.comma.ts",
+        "punctuation.accessor.ts",
+        "meta.parameters.ts",
+        "meta.brace.round.ts"
+      ],
       "settings": {
         "foreground": "#dfc47d"
       }
@@ -1946,7 +1975,7 @@
     "input.placeholderForeground": "#a6a6a6",
     "textLink.foreground": "#85c2c2",
     "editor.background": "#1d1d1d",
-    "editor.foreground": "#dfc47d",
+    "editor.foreground": "#c0c0c0",
     "editorLineNumber.foreground": "#41464b",
     "editorCursor.foreground": "#becfc6",
     "editorCursor.background": "#000000",
