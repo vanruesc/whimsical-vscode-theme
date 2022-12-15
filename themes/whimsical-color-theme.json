@@ -121,9 +121,12 @@
     },
     {
       "name": "regexp constant character-class",
-      "scope": "constant.other.character-class.regexp",
+      "scope": [
+        "constant.other.character-class.regexp",
+        "constant.other.character-class.set.regexp"
+      ],
       "settings": {
-        "foreground": "#dfc47d"
+        "foreground": "#cedae3"
       }
     },
     {
@@ -131,6 +134,13 @@
       "scope": "keyword.operator.quantifier.regexp",
       "settings": {
         "foreground": "#85c2c2"
+      }
+    },
+    {
+      "name": "regexp keyword.control",
+      "scope": "keyword.control.anchor.regexp",
+      "settings": {
+        "foreground": "#cedae3"
       }
     },
     {
@@ -1008,14 +1018,14 @@
       "name": "Regular Expressions",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#9f9d6d"
+        "foreground": "#aec2d2"
       }
     },
     {
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#9f9d6d"
+        "foreground": "#aec2d2"
       }
     },
     {
