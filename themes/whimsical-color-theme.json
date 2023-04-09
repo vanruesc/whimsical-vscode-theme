@@ -37,7 +37,12 @@
     },
     {
       "name": "jsdoc tags",
-      "scope": "storage.type.class.jsdoc,entity.name.type.instance.jsdoc,variable.other.description.jsdoc",
+      "scope": [
+        "storage.type.class.jsdoc",
+        "entity.name.type.instance.jsdoc",
+        "variable.other.description.jsdoc",
+        "punctuation.definition.block.tag.jsdoc"
+      ],
       "settings": {
         "foreground": "#c0c0c0"
       }
