@@ -16,4 +16,6 @@ code --install-extension <package-name>.vsix
 
 ## Preview
 
-![Screenshot](screenshot.png)
+![Whimsical](whimsical.png)
+
+![Whimsical (Waher)](whimsical-waher.png)
