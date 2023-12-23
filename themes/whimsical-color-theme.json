@@ -816,6 +816,13 @@
       }
     },
     {
+      "name": "HTML Tags",
+      "scope": "entity.name.tag.html",
+      "settings": {
+        "foreground": "#c4a191"
+      }
+    },
+    {
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
@@ -1541,7 +1548,7 @@
         "constant.character.entity"
       ],
       "settings": {
-        "foreground": "#d7d7d7"
+        "foreground": "#cedae3"
       }
     },
     {
@@ -1812,6 +1819,16 @@
       ],
       "settings": {
         "foreground": "#90b090"
+      }
+    },
+    {
+      "name": "HMTL tag braces",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#d7c3ba"
       }
     },
     {
