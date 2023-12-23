@@ -5,7 +5,7 @@ A color theme for VSCode, based on the Waher theme for Notepad++ by Kristo Vaher
 ## Installation
 
 ```sh
-npm install -g vsce
+npm install -g @vscode/vsce
 
 // Make the theme package
 vsce package
