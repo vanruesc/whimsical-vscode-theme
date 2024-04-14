@@ -16,6 +16,11 @@
 				"label": "Whimsical",
 				"uiTheme": "vs-dark",
 				"path": "./themes/whimsical-color-theme.json"
+			},
+			{
+				"label": "Whimsical (Waher)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/whimsical-waher-color-theme.json"
 			}
 		]
 	},
