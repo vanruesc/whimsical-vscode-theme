@@ -2,10 +2,10 @@
 	"name": "whimsical-vscode-theme",
 	"displayName": "Whimsical",
 	"description": "A dark color theme for VSCode.",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"license": "Zlib",
 	"engines": {
-		"vscode": "^1.72.0"
+		"vscode": "^1.88.1"
 	},
 	"categories": [
 		"Themes"
@@ -16,11 +16,6 @@
 				"label": "Whimsical",
 				"uiTheme": "vs-dark",
 				"path": "./themes/whimsical-color-theme.json"
-			},
-			{
-				"label": "Whimsical (Waher)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/whimsical-waher-color-theme.json"
 			}
 		]
 	},
