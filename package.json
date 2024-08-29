@@ -1,15 +1,27 @@
 {
 	"name": "whimsical-vscode-theme",
-	"displayName": "Whimsical",
-	"description": "A dark color theme for VSCode.",
 	"version": "1.0.0",
-	"license": "Zlib",
+	"displayName": "Whimsical",
+	"description": "Dark and subdued colors with subtle variations and pleasant highlights.",
+	"publisher": "vanruesc",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"icon": "images/logo.png",
+	"galleryBanner": {
+		"color": "#f9f8f6",
+		"theme": "light"
+	},
 	"engines": {
-		"vscode": "^1.88.1"
+		"vscode": "^1.92.0"
 	},
 	"categories": [
 		"Themes"
 	],
+  "keywords": [
+    "VSCode",
+    "Themes",
+    "Whimsical",
+    "Waher"
+  ],
 	"contributes": {
 		"themes": [
 			{
@@ -27,5 +39,12 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/vanruesc/whimsical-vscode-theme.git"
+	},
+	"scripts": {
+		"bundle": "vsce package",
+		"publish": "vsce publish"
+	},
+	"devDependencies": {
+		"@vscode/vsce": "3.x.x"
 	}
 }
