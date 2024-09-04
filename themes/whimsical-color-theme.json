@@ -415,7 +415,9 @@
 		{
 			"scope": [
 				"storage.type.class.jsdoc",
-				"punctuation.definition.block.tag.jsdoc"
+				"punctuation.definition.block.tag.jsdoc",
+				"keyword.other.documentation.javadoc.java",
+				"keyword.other.phpdoc.php"
 			],
 			"settings": {
 				"foreground": "#C0C0C0"
