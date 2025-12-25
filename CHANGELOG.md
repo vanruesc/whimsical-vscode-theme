@@ -4,6 +4,10 @@ All notable changes to the "whimsical" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## v1.0.4
+
+- Adjust logo.
+
 ## v1.0.3
 
 - Fix artifacts caused by unsafe color rounding.
