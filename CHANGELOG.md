@@ -4,14 +4,18 @@ All notable changes to the "whimsical" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## v1.0.0
+## v1.0.3
 
-- Initial release.
+- Fix artifacts caused by unsafe color rounding.
+
+## v1.0.2
+
+- Adjust color of doc tags for Java and PHP.
 
 ## v1.0.1
 
 - Readme and preview image path fixes.
 
-## v1.0.2
+## v1.0.0
 
-- Adjusted color of doc tags for Java and PHP.
+- Initial release.
