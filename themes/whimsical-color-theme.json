@@ -50,7 +50,7 @@
 		"editor.selectionHighlightBackground": "#FFCDA783",
 		"editor.selectionHighlightBorder": "#C3BF9F36",
 		"editorBracketMatch.foreground": "#FFFFFF",
-		"editorBracketMatch.background": "#1E1E1E",
+		"editorBracketMatch.background": "#00000000",
 		"editorBracketMatch.border": "#88888800",
 		"editorCodeLens.foreground": "#999999",
 		"editorError.foreground": "#E05239",
