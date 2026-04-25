@@ -2,10 +2,14 @@
 
 All notable changes to the "whimsical" extension will be documented in this file.
 
+## v1.1.1
+
+- Adjust editorBracketMatch colors
+- Adjust foldBackground color
+
 ## v1.1.0
 
-- Define `editorBracketMatch.foreground`
-- Make `editorBracketMatch.background` transparent
+- Adjust editorBracketMatch colors
 - Raise minimum version to `1.109.0`
 
 ## v1.0.4
