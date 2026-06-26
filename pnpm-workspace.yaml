@@ -1,0 +1,4 @@
+save: false
+allowBuilds:
+  '@vscode/vsce-sign': true
+  'keytar': true
